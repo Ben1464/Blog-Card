@@ -5,7 +5,7 @@ body{
     background-color:#DEBE4D ;
     text-align: center;
     justify-content: center;
-    height: 100vh;
+    height: 200vh;
     font:url("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf");
 }
 .container{
@@ -15,7 +15,7 @@ body{
     justify-content: center;
     height: 65vh;
     background-color:#FFFFFF ;
-    width: 400px;
+    width: 300px;
     border: 8px;
     border-radius: 14px;
     padding: 20px;
