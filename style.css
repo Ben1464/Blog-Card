@@ -15,7 +15,7 @@ body{
     justify-content: center;
     height: 70vh;
     background-color:#FFFFFF ;
-    width: 350px;
+    width: 330px;
     border: 8px;
     border-radius: 14px;
     padding: 20px;
@@ -26,6 +26,7 @@ body{
 }
 img{
     border-radius: 12px;
+    
 }
 h3{
     background-color:#DEBE4D ;
