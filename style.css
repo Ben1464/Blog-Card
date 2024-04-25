@@ -21,7 +21,8 @@ body{
     padding: 20px;
     margin: 0 auto;
     margin-top: 100px;
-    box-shadow: 10px 10px 50px 10px black;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.4); 
+    
 }
 img{
     border-radius: 12px;
@@ -34,4 +35,31 @@ h3{
     margin-left: 30px;
     font-size: 24px;
     width: 100px;
+}
+.heading{
+    color:#DEBE4D;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.date{
+    padding: 4px;
+    margin: 5pxs;
+    margin-left: 10px;
+    font-size: 12px;
+    width: 130px;
+}
+.name{
+    padding: 0px;
+    margin: 0pxs;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.name-img{
+    padding: 5px;
+    margin: 5pxs;
+    margin-left: 30px;
 }
