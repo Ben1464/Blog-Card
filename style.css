@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #FFFFFF;
-    max-width: 330px; /* Change width to maximum width */
+    max-width: 200px; /* Change width to maximum width */
     border-radius: 14px;
     padding: 20px;
     margin: 20px;
@@ -81,4 +81,7 @@ h3 {
     .attribution {
         font-size: 8px; /* Adjust font size */
     }
+}
+img{
+    border-radius: 12px;
 }
