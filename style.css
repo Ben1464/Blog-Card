@@ -1,66 +1,84 @@
-body{
+body {
     display: flex;
-    padding:0;
-    margin:0;
-    background-color:#DEBE4D ;
+    padding: 0;
+    margin: 0;
+    background-color: #DEBE4D;
     text-align: center;
     justify-content: center;
-    height: 120vh;
-    font:url("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf");
+    height: 100%;
+    font-family: 'Figtree', sans-serif; /* Update font-family */
 }
-.container{
-    /* display: flex;
-    flex-direction: column; */
+
+.container {
     align-items: center;
     justify-content: center;
-    height: 70vh;
-    background-color:#FFFFFF ;
-    width: 330px;
-    border: 8px;
+    background-color: #FFFFFF;
+    max-width: 330px; /* Change width to maximum width */
     border-radius: 14px;
     padding: 20px;
-    margin: 0 auto;
-    margin-top: 20px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.4); 
-    
+    margin: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.4);
 }
-img{
-    border-radius: 12px;
-    
-}
-h3{
-    background-color:#DEBE4D ;
+ 
+
+h3 {
+    background-color: #DEBE4D;
     border-radius: 12px;
     padding: 4px;
-    margin: 5pxs;
-    margin-left: 30px;
-    font-size: 24px;
-    width: 100px;
+    margin: 5px;
+    font-size: 20px; /* Adjust font size */
+    width: 100px; /* Adjust width */
 }
-.heading{
-    color:#DEBE4D;
-    font-size: 32px;
+
+.heading {
+    color: #DEBE4D;
+    font-size: 28px; /* Adjust font size */
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.date{
-    padding: 4px;
-    margin: 5pxs;
-    margin-left: 10px;
-    font-size: 12px;
-    width: 130px;
-}
-.name{
-    padding: 0px;
-    margin: 0pxs;
-    margin-left: 10px;
-    font-size: 18px;
-    font-weight: bold;
 
+.date {
+    padding: 4px;
+    margin: 5px;
+    font-size: 12px;
 }
-.name-img{
-    padding: 5px;
-    margin: 5pxs;
-    margin-left: 30px;
+
+.name {
+    padding: 0;
+    margin: 0;
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold;
+}
+
+.attribution {
+    font-size: 10px; /* Adjust font size */
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 100%; /* Change maximum width to 100% for smaller screens */
+        margin: 10px; /* Adjust margin */
+    }
+
+    h3 {
+        font-size: 18px; /* Adjust font size */
+    }
+
+    .heading {
+        font-size: 24px; /* Adjust font size */
+    }
+
+    .date {
+        font-size: 10px; /* Adjust font size */
+    }
+
+    .name {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .attribution {
+        font-size: 8px; /* Adjust font size */
+    }
 }
