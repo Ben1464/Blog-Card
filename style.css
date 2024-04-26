@@ -13,11 +13,11 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #FFFFFF;
-    max-width: 200px; /* Change width to maximum width */
+    max-width: 350px; /* Change width to maximum width */
     border-radius: 14px;
     padding: 20px;
     margin: 20px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 20px rgba(5px, 5px, 0, 0), 0px 0px 50px rgba(0, 0, 0, 0.4);
 }
  
 
